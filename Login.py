@@ -10,6 +10,6 @@ with st.form(key='login_form'):
     with col1:
             login_button = st.form_submit_button("Login")
     with col2:
-            st.write("Don't have an account? [Register](/workspaces/Registration-loginpage/Main.py)") 
+            st.write("Don't have an account? [Register](/https://github.com/Johnsonndungu/Registration-loginpage/blob/main/Main.py)") 
 
 # Add your login logic here, e.g., check credentials against a database
