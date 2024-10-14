@@ -13,7 +13,7 @@ with st.form(key='registration_form'):
         with col1:
             submit_button = st.form_submit_button(label='Register')
         with col2:
-            st.write("Have an account? [Login](/https://github.com/Johnsonndungu/Registration-loginpage/blob/main/Login.py") 
+            st.write("Have an account? [Login](/https://github.com/Johnsonndungu/Registration-loginpage/blob/main/Login.py)") 
 
         if submit_button:
             if not Firstname or email or phone_number or password or confirm_password:
